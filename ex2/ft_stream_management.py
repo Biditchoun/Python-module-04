@@ -27,7 +27,7 @@ def files_training(av: list) -> None:
     content = content.replace("#\n#\n", "#\n\n")
     print("Transform data:")
     print(f"---\n\n{content}---")
-    print("Enter new file name (or empty): ", end="")
+    print("Enter new file name (or empty): ")
     name = sys.stdin.readline()
     name = name.replace("\n", "")
     if name == "":
